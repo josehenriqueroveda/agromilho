@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -18,23 +16,19 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.header}>
           <div className={styles.appName}>
-            <h1>
-              <span className={styles.agro}>agro</span><span className={styles.milho}>milho</span>
-            </h1>
-          </div>
-          <div className={styles.author}>
             <a
               href="/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h5>By{' '}</h5>
-              <h4>José Henrique Roveda</h4>
+              <h1>
+                <span className={styles.agro}>agro</span><span className={styles.milho}>milho</span>
+              </h1>
             </a>
           </div>
         </div>
         <div className={styles.content}>
-          <div className={styles.subtitle}>
+          <div className={styles.title}>
             Métodos de cálculo de produtividade:
           </div>
           <div className={styles.cardsWrapper} >
@@ -42,7 +36,6 @@ export default function Home() {
               <a
                 href="/calc_simple"
                 className={styles.card}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <h2>
@@ -56,7 +49,6 @@ export default function Home() {
               <a
                 href="/calc_emater"
                 className={styles.card}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <h2>
@@ -70,7 +62,6 @@ export default function Home() {
               <a
                 href="/calc_calagem"
                 className={styles.card}
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <h2>
