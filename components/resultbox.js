@@ -2,7 +2,7 @@ import React from "react";
 import styles from '@/styles/Home.module.css'
 
 function ResultBox({ result, title, funClose, unit }) {
-  if (result == null || result == undefined || result == "NaN" || result == NaN) {
+  if (result == null || result == undefined || result == "NaN" || result == NaN || result == 0 || result == "" || result == "0") {
     return (
       <div className={styles.modal}>
         <div className={styles.modal_content}>
