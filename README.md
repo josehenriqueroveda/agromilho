@@ -1,38 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Agromilho: Calculadora Online para Produtores de Milho
 
-## Getting Started
+O Agromilho é uma aplicação web desenvolvida com Next.js que oferece aos produtores de milho uma maneira fácil e acessível de calcular a produtividade de suas colheitas, bem como a necessidade de calcário para seus solos.
 
-First, run the development server:
+## Por que é Importante Calcular a Produtividade?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+A produtividade é um dos principais indicadores de sucesso para produtores de milho. Ao calcular a produtividade de uma colheita, um produtor pode determinar o rendimento de seus esforços e tomar decisões informadas sobre o manejo de sua plantação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+No entanto, muitos produtores enfrentam barreiras para calcular a produtividade de forma precisa e eficiente. Muitas vezes, a falta de acesso a ferramentas apropriadas pode tornar o processo de cálculo demorado e complexo.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Como o Agromilho Ajuda os Produtores de Milho?
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+O Agromilho foi desenvolvido para fornecer aos produtores de milho uma maneira fácil e acessível de calcular a produtividade de suas colheitas, bem como a necessidade de calcário para seus solos. A aplicação oferece três métodos de cálculo específicos para a cultura do milho:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Cálculo de produtividade simples
+2. Cálculo de produtividade segundo o instituto EMATER
+3. Cálculo de necessidade de calcário (calagem)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Com o Agromilho, os produtores podem inserir facilmente as informações necessárias para realizar esses cálculos e obter resultados precisos em segundos. Isso permite que eles tomem decisões informadas sobre o manejo de sua plantação e maximizem sua produtividade.
 
-## Learn More
+## Link da Aplicação
 
-To learn more about Next.js, take a look at the following resources:
+Acesse a aplicação clicando [aqui](https://agromilho.vercel.app/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como Usar
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para utilizar a aplicação, siga estes passos simples:
 
-## Deploy on Vercel
+1. Acesse a aplicação clicando no link acima
+2. Selecione o método de cálculo desejado
+3. Insira as informações necessárias para o cálculo
+4. Clique em "Calcular" para obter o resultado
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuindo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este é um projeto de código aberto e é excelente receber contribuições da comunidade. Se você tem experiência em desenvolvimento web ou em cultivo de milho, sinta-se à vontade para abrir uma issue ou um pull request com suas sugestões.
+
+### Configurando o Ambiente de Desenvolvimento
+
+Se você quiser contribuir para o Agromilho, siga estas etapas para configurar o ambiente de desenvolvimento local:
+
+1. Clone o repositório: `git clone https://github.com/seu-usuario/agromilho.git`
+2. Instale as dependências: `npm install`
+3. Inicie o servidor local: `npm run dev`
