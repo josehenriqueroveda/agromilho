@@ -74,7 +74,7 @@ export default function Emater() {
                         className={`${styles.modal}`}
                         overlayClassName={`${styles.modal_overlay}`}
                     >
-                        {result !== null && <ResultBox result={result} title={"A produtividade estimada é:"} funClose={handleCloseModal} unit={"ton/ha"} />}
+                        <ResultBox result={result} title={"A produtividade estimada é:"} funClose={handleCloseModal} unit={"ton/ha"} />
                     </Modal>
                 </div>
             </main>

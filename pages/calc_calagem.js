@@ -111,7 +111,7 @@ export default function Calagem() {
             className={`${styles.modal}`}
             overlayClassName={`${styles.modal_overlay}`}
           >
-            {result !== null && <ResultBox result={result} title={"A necessidade de calcário é:"} funClose={handleCloseModal} unit={"kg por hectare"}/>}
+            <ResultBox result={result} title={"A necessidade de calcário é:"} funClose={handleCloseModal} unit={"kg por hectare"}/>
           </Modal>
         </div>
       </main>
