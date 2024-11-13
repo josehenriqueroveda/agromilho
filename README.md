@@ -20,18 +20,17 @@ O Agromilho foi desenvolvido para fornecer aos produtores de milho uma maneira f
 
 Com o Agromilho, os produtores podem inserir facilmente as informações necessárias para realizar esses cálculos e obter resultados precisos em segundos. Isso permite que eles tomem decisões informadas sobre o manejo de sua plantação e maximizem sua produtividade.
 
-## 🔗 Link da Aplicação
-
-Acesse a aplicação clicando [aqui](https://agromilho.vercel.app/).
-
 ## 💻 Como Usar
 
 Para utilizar a aplicação, siga estes passos simples:
 
-1. Acesse a aplicação clicando no link acima
+1. Acesse a aplicação iniciando o servidor local: `npm run dev`
 2. Selecione o método de cálculo desejado
+![home-page](/examples/home-page.png)
 3. Insira as informações necessárias para o cálculo
+![emater-calc](/examples/emater-calc.png)
 4. Clique em "Calcular" para obter o resultado
+![result-page](/examples/emater-result.png)
 
 ## 🤝 Contribuindo
 
